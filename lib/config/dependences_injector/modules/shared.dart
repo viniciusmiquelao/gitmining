@@ -15,7 +15,7 @@ void setupSharedInjections() {
       DependencesInjector.get<Dio>(),
       'https://api.github.com/repos/',
       [
-        DependencesInjector.get<LogInterceptor>(),
+        //DependencesInjector.get<LogInterceptor>(),
       ],
     );
   });
