@@ -12,13 +12,13 @@ Steps to run the application:
 - Clone the project
 - Enter in the gitmining directory
 
-Run the code to install dependences:
+- Run the code to install dependences:
 
 ```
 dart pub get
 ```
 
-Run the code to start application:
+- Run the code to start application:
 
 ```
 dart run bin/gitmine.dart
