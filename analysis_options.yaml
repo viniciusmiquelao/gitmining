@@ -1,0 +1,43 @@
+analyzer:
+  errors:
+    # allow for asset_does_not_exist
+    unrecognized_error_code: ignore
+    # ignore this in pubspec.yaml
+    asset_does_not_exist: ignore
+
+  exclude:
+    - "bin/cache/**"
+
+linter:
+  rules:
+    # - always_put_required_named_parameters_first
+    - always_declare_return_types
+    - annotate_overrides
+    - avoid_empty_else
+    - avoid_field_initializers_in_const_classes
+    - avoid_print
+    - avoid_returning_null_for_future
+    - avoid_returning_null_for_void
+    - avoid_unused_constructor_parameters
+    - cancel_subscriptions
+    - camel_case_extensions
+    - camel_case_types
+    - empty_constructor_bodies
+    - file_names
+    - no_duplicate_case_values
+    - non_constant_identifier_names
+    - package_names
+    - package_prefixed_library_names
+    # - prefer_asserts_with_message
+    - prefer_const_constructors
+    - prefer_final_fields
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - prefer_single_quotes
+    - sort_child_properties_last
+    - sort_pub_dependencies
+    - unnecessary_await_in_return
+    - unnecessary_brace_in_string_interps
+    - unnecessary_const
+    - unnecessary_new
+    - unnecessary_parenthesis
