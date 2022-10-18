@@ -17,13 +17,11 @@ Run the code to install dependences:
 ```
 dart pub get
 
+```
 
 Run the code to start application:
 
 ```
-
 dart run bin/gitmine.dart
-
-```
 
 ```
