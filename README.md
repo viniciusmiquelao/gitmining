@@ -1,6 +1,6 @@
 ## GIT MINING DART
 
-# This project is a console application made in Dart language that mines data from git repositories
+### This project is a console application made in Dart language that mines data from git repositories
 
 Technologies:
 
